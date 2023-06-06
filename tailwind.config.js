@@ -13,4 +13,3 @@ module.exports = {
     preflight: false,
   },
 }
-

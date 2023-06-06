@@ -1,6 +1,6 @@
-import React from "react";
-import { ConfigProvider } from "antd";
-import en from 'antd/locale/en_US';
+import React from "react"
+import { ConfigProvider } from "antd"
+import en from "antd/locale/en_US"
 
 const withTheme = (node: JSX.Element) => (
   <>
@@ -8,8 +8,8 @@ const withTheme = (node: JSX.Element) => (
       locale={en}
       theme={{
         token: {
-          colorPrimary: '#393939',
-          borderRadius:8,
+          colorPrimary: "#393939",
+          borderRadius: 8,
         },
       }}
     >
@@ -18,4 +18,4 @@ const withTheme = (node: JSX.Element) => (
   </>
 )
 
-export default withTheme;
+export default withTheme

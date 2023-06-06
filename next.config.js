@@ -9,8 +9,8 @@ const nextConfig = {
         source: "/attachments/:path*",
         destination: "https://cdn.discordapp.com/attachments/:path*",
       },
-    ];
+    ]
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
